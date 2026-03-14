@@ -8,6 +8,7 @@
   /* Base colors */
   --color-purple: #4d5ae5;
   --color-cloud: #f4f4fd;
+  --color-white: #ffffff;
 }
 /* #endregion */
 
@@ -426,8 +427,13 @@ img {
 .footer-left {
   margin-right: 120px;
 }
-.footer-paragraph {
+.footer-socials-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
+  color: var(--color-white);
 }
 .footer-list-social {
   display: flex;
@@ -448,5 +454,14 @@ img {
   max-width: 264px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.footer-item-social-icon {
+  fill: var(--color-cloud);
+}
+
+.footer-item-social .socials-link:hover,
+.footer-item-social .socials-link:focus {
+  background-color: #31d0aa;
 }
 /* #endregion */
