@@ -185,6 +185,9 @@ img {
 
 /* #region Hero */
 .hero {
+  padding: 0;
+}
+.hero-wrapper {
   min-height: 600px;
   display: flex;
   flex-direction: column;
