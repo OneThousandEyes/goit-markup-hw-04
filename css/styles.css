@@ -419,6 +419,24 @@ img {
   padding: 100px 0;
   background: #2e2f42;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-left {
+  margin-right: 120px;
+}
+.footer-paragraph {
+  margin-bottom: 16px;
+}
+.footer-list-social {
+  display: flex;
+  gap: 16px;
+}
+.footer-item-social {
+  width: 40px;
+  height: 40px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
